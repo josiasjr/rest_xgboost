@@ -2,7 +2,7 @@ FROM debian:stable-slim
 
 WORKDIR /app
 
-COPY bin /app/crd-frd
+COPY bin /app/bin
 COPY app.yaml /app
 
 #COPY libgomp1_6.3.0-18+deb9u1_amd64.deb /app
